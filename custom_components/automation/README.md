@@ -7,7 +7,7 @@ In most cases you only use 1 option out of the following:
 Config:
 ```
 automation:
-  - alias: 'automation'
+  - alias: 'AUTOMATION_ID'
     cooldown:
       # Set a cooldown for 30 seconds 'hours:minutes:seconds'
       time: '00:00:30'
@@ -24,6 +24,6 @@ automation:
 
 If you want to reset the automation and delete the current cooldown, you can use the service: automation.cooldown_reset
 ```
-- service: automation.cooldown_reset
+- service: automation.AUTOMATION_ID
   entity_id: automation.test
 ```

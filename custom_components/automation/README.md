@@ -1,6 +1,6 @@
 Set a cooldown for the automation (times/day/week/month), so its only trigger once per day, or every X minutes
 
-Most cases you only use 1 option out of the fallowing:
+Most cases you only use 1 option out of the following:
 
 Config:
 ```

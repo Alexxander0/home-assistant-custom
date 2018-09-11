@@ -1,6 +1,7 @@
 Set a cooldown for the automation (times/day/week/month), so its only trigger once per day, or every X minutes
+Its required to use the recorder, because the attribute last_triggered needs to be safed and restored. Otherwise the cooldown is not restored after HA restart and cooldown reset
 
-Most cases you only use 1 option out of the following:
+In most cases you only use 1 option out of the following:
 
 Config:
 ```

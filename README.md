@@ -1,2 +1,3 @@
 # home-assistant-custom
-home assistant customized
+
+current release v0.77.3

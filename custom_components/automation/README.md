@@ -24,6 +24,7 @@ automation:
 
 If you want to reset the automation and delete the current cooldown, you can use the service: automation.cooldown_reset
 ```
-- service: automation.AUTOMATION_ID
-  entity_id: automation.test
+# resets the cooldown for the automation. So it can be triggered again
+- service: automation.cooldown_reset
+  entity_id: automation.AUTOMATION_ID
 ```
